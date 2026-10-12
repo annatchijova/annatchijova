@@ -48,7 +48,7 @@ That's why —haha— every repo of mine has a `/docs` folder that can hold doze
 
 Formalizes forensic intent analysis as an executable deterministic system. It combines abductive reasoning, cross-artifact analysis, explicit uncertainty and abstention, exact arithmetic for decisions, sealed evidence packages and adversarial self-audit. It extends Indicators of Compromise (IoC) with Indicators of Intent (IoI) to analyze logical, contextual and behavioral fractures that can tell apart error, anomaly, deliberate action, concealment and manipulation. LLMs can investigate or narrate; they don't control the verdict.
 
-### JANUS · private repo, preparing launch for SMBs
+### [JANUS](https://github.com/annatchijova/janus) · private repo, preparing launch for SMBs
 
 An adversarial social engineering simulator that measures how people make decisions under contextual uncertainty, not whether they clicked. It treats overreaction and credulity as symmetric failures, records decision processes across benign, malicious and ambiguous cases, and produces individual and organizational reports.
 
@@ -64,7 +64,7 @@ Zero-knowledge (ZK) forensic attestation on Midnight: the verdict is public, the
 
 A forensic identity gate for GitLab pipelines. Seven independent forensic cores compare a commit against the behavioral and stylistic baseline of the person or LLM listed as author —behavioral patterns, entropy, semiotics, lexical and register shifts, chronobiology, commit atomicity and syntactic fingerprints— and produce deterministic PASS / WARN / REQUIRE_REVIEW / BLOCK results with exact rational arithmetic.
 
-### PHYLO-Google · private code, available on request
+### [PHYLO-Google](https://github.com/annatchijova/phylo-google) · private code, available on request
 
 The PHYLO line for Google's platform. In this evolutionary code optimization system, the model proposes mutations, isolated sandboxes (Pyodide/WASM and V8) run the candidates, and tests and benchmarks select the changes. A signed Evolution Bundle, verifiable offline, records the baseline, the mutations, the winning candidate and the measurements.
 
@@ -86,83 +86,84 @@ Repositories grouped by area. Those marked *private* are available on request or
 
 ### Forensics, DFIR and investigation tools
 
-- **zaynor** — Local AI-assisted DFIR platform: normalizes and freezes evidence before VIGÍA's deterministic analysis; then lets you explain sealed findings or extend the investigation with read-only queries via CLI, web, API and MCP.
-- **vigia** — Hub for the VIGÍA project and supporting materials.
-- **vigia-cases** — Reproducible DFIR benchmark: case material and ground truth kept separate, MITRE ATT&CK mapping, SHA-256 manifests and scoring guide.
-- **forge** — Local, read-only runtime for reproducible repository audits: specialized analyzers with explicit contracts, preserved evidence and discarded hypotheses, and sealed findings for CLI, Python and MCP.
-- **forge-improved** — Multi-language line of Forge, with multi-agent auditing and explicit abstention when the scope can't support a conclusion.
-- **forge-results** — Per-run manifests, benchmarks and reports, kept separate from the runtime to preserve attribution and reproducibility.
-- **orbit-guardian** — Intent analysis for merge requests: independent forensic cores examine obfuscated payloads, manipulation and social engineering, and require corroboration before presenting the sealed result to reviewers.
-- **pancito-red-team** — Each bounded adversarial validation links an observable change in the target to a control failure and to the defensive telemetry that recorded it.
-- **moira** — Uses exact rational arithmetic to find the minimal causal cut of a deterministic history: which transitions can be removed to change the outcome.
-- **siberian** — Models investigative silence as coverage: what evidence a collection scope should have produced, what's missing, what's uncertain and what fell out of scope.
-- **sudo-su** — Playable Linux forensics investigation in ten levels: filesystem, permissions, processes, logs, sockets, timelines, auditd and privilege escalation.
-- **annacondaa** — *Private.* Companion line to ANNACONDA for case analysis and evidence-centered investigation workflows.
-- **hackers-argentina** — *Private.* Curated Argentine cybersecurity resources.
-- **logs** — *Private.* Operational traces and related artifacts.
+- [**zaynor**](https://github.com/annatchijova/zaynor) — Local AI-assisted DFIR platform: normalizes and freezes evidence before VIGÍA's deterministic analysis; then lets you explain sealed findings or extend the investigation with read-only queries via CLI, web, API and MCP.
+- [**vigia**](https://github.com/annatchijova/vigia) — Hub for the VIGÍA project and supporting materials.
+- [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Reproducible DFIR benchmark: case material and ground truth kept separate, MITRE ATT&CK mapping, SHA-256 manifests and scoring guide.
+- [**forge**](https://github.com/annatchijova/forge) — Local, read-only runtime for reproducible repository audits: specialized analyzers with explicit contracts, preserved evidence and discarded hypotheses, and sealed findings for CLI, Python and MCP.
+- [**forge-improved**](https://github.com/annatchijova/forge-improved) — Multi-language line of Forge, with multi-agent auditing and explicit abstention when the scope can't support a conclusion.
+- [**forge-results**](https://github.com/annatchijova/forge-results) — Per-run manifests, benchmarks and reports, kept separate from the runtime to preserve attribution and reproducibility.
+- [**orbit-guardian**](https://github.com/annatchijova/orbit-guardian) — Intent analysis for merge requests: independent forensic cores examine obfuscated payloads, manipulation and social engineering, and require corroboration before presenting the sealed result to reviewers.
+- [**pancito-red-team**](https://github.com/annatchijova/pancito-red-team) — Each bounded adversarial validation links an observable change in the target to a control failure and to the defensive telemetry that recorded it.
+- [**moira**](https://github.com/annatchijova/moira) — Uses exact rational arithmetic to find the minimal causal cut of a deterministic history: which transitions can be removed to change the outcome.
+- [**siberian**](https://github.com/annatchijova/siberian) — Models investigative silence as coverage: what evidence a collection scope should have produced, what's missing, what's uncertain and what fell out of scope.
+- [**sudo-su**](https://github.com/annatchijova/sudo-su) — Playable Linux forensics investigation in ten levels: filesystem, permissions, processes, logs, sockets, timelines, auditd and privilege escalation.
+- [**annacondaa**](https://github.com/annatchijova/annacondaa) — *Private.* Companion line to ANNACONDA for case analysis and evidence-centered investigation workflows.
+- [**hackers-argentina**](https://github.com/annatchijova/hackers-argentina) — *Private.* Curated Argentine cybersecurity resources.
+- [**logs**](https://github.com/annatchijova/logs) — *Private.* Operational traces and related artifacts.
 
 ### Cryptography and verifiable records
 
-- **continuum** — Encrypted, local, recoverable personal archive (see above).
-- **proof** — Payment verification against the Stellar ledger (see above).
-- **digital-legacy** — *Private.* Predecessor of CONTINUUM: encrypted personal archives, digital legacy and governed access to records.
-- **audit-chain** — Append-only logs compared across C, Java and Rust, with SHA-256 chains to detect modification, insertion, deletion or reordering.
-- **veridra** — Payment claim verifier on Monad: checks transactions against on-chain evidence and records deterministic adjudications.
-- **muster** — Collateralized on-chain market to reserve incident response capacity, transfer unused reservations, and enforce service deadlines and dispute resolution.
-- **zk-criptografia** — Spanish-language research on the cryptographic, mathematical, legal and expert-identity foundations of zero-knowledge forensic attestation.
+- [**continuum**](https://github.com/annatchijova/continuum) — Encrypted, local, recoverable personal archive (see above).
+- [**proof**](https://github.com/annatchijova/proof) — Payment verification against the Stellar ledger (see above).
+- [**digital-legacy**](https://github.com/annatchijova/digital-legacy) — *Private.* Predecessor of CONTINUUM: encrypted personal archives, digital legacy and governed access to records.
+- [**audit-chain**](https://github.com/annatchijova/audit-chain) — Append-only logs compared across C, Java and Rust, with SHA-256 chains to detect modification, insertion, deletion or reordering.
+- [**veridra**](https://github.com/annatchijova/veridra) — Payment claim verifier on Monad: checks transactions against on-chain evidence and records deterministic adjudications.
+- [**muster**](https://github.com/annatchijova/muster) — Collateralized on-chain market to reserve incident response capacity, transfer unused reservations, and enforce service deadlines and dispute resolution.
+- [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Spanish-language research on the cryptographic, mathematical, legal and expert-identity foundations of zero-knowledge forensic attestation.
 
 ### Agent memory, provenance and history
 
-- **mneme** — Treats agent memories as forensic evidence: separates custody from authority, traces contamination into later decisions, reconstructs impact and exports offline-verifiable bundles.
-- **mneme_memory_mcp** — *Private.* MCP integration connecting Mneme memory to compatible agent workflows.
-- **engram** — XR surface to inspect provenance, custody and authority grants of MNEME memory, causal paths, counterfactuals and independently verifiable exports.
-- **raven-memory** — Replaces flat top-k retrieval with an adaptive memory field featuring reinforcement, forgetting, contradictions, resonance, inhibition and consolidation. On its published benchmark it reaches recall@5 of 0.69 versus 0.57–0.59 for plain top-k.
-- **raven-memory_** — *Private.* Ongoing development of Raven Memory.
-- **remember-the-seasons** — Records which memories were offered, used and reinforced; seals reproducible receipts and reconstructs past states from history.
-- **cronos** — Black-box recorder for agents: captures retrieved memories, tool calls, considered or discarded hypotheses, evidence and decisions as they happen, and seals the trace in a SHA-256 chain.
-- **stigmergy** — Decentralized multi-agent memory: coordination through CockroachDB state, per-node hash chains and a chained Merkle ledger, with no central orchestrator or LLM in the decision path.
+- [**mneme**](https://github.com/annatchijova/mneme) — Treats agent memories as forensic evidence: separates custody from authority, traces contamination into later decisions, reconstructs impact and exports offline-verifiable bundles.
+- [**mneme_memory_mcp**](https://github.com/annatchijova/mneme_memory_mcp) — *Private.* MCP integration connecting Mneme memory to compatible agent workflows.
+- [**engram**](https://github.com/annatchijova/engram) — XR surface to inspect provenance, custody and authority grants of MNEME memory, causal paths, counterfactuals and independently verifiable exports.
+- [**raven-memory**](https://github.com/annatchijova/raven-memory) — Replaces flat top-k retrieval with an adaptive memory field featuring reinforcement, forgetting, contradictions, resonance, inhibition and consolidation. On its published benchmark it reaches recall@5 of 0.69 versus 0.57–0.59 for plain top-k.
+- [**raven-memory_**](https://github.com/annatchijova/raven-memory_) — *Private.* Ongoing development of Raven Memory.
+- [**remember-the-seasons**](https://github.com/annatchijova/remember-the-seasons) — Records which memories were offered, used and reinforced; seals reproducible receipts and reconstructs past states from history.
+- [**cronos**](https://github.com/annatchijova/cronos) — Black-box recorder for agents: captures retrieved memories, tool calls, considered or discarded hypotheses, evidence and decisions as they happen, and seals the trace in a SHA-256 chain.
+- [**stigmergy**](https://github.com/annatchijova/stigmergy) — Decentralized multi-agent memory: coordination through CockroachDB state, per-node hash chains and a chained Merkle ledger, with no central orchestrator or LLM in the decision path.
 
 ### Adversarial AI, manipulation and high-stakes decisions
 
-- **mutante** — Adversarial LLM evaluation by prompt mutation: repeated probes, deterministic scoring, sealed traces and per-attack-family observability.
-- **mutante_** — *Private.* Companion research line for Mutante.
-- **argos** — Analyzes texts through 11 philosophical and linguistic frameworks, with per-framework evidence and reproducible rule-based signals; Gemini's semantic reading stays in a separate layer.
-- **wolf-and-cronos** — Social engineering analysis through six frameworks with a corroboration gate and CRONOS traces of hypotheses, evidence, discarded alternatives and decisions.
-- **corvus** — *Private.* Applies six theoretical frameworks and personal baselines to Slack conversations, and requires corroboration before escalating.
-- **gambit** — Negotiation copilot that surfaces pressure signals through deterministic lenses and a separate semantic reading; WATCH mode can classify and draft, but the decision to send stays with the person.
-- **discordia** — Reproducible bounded-autonomy experiment: three conviction modules reason about the same microworld, and contradictions trigger mechanical coercion and a persistent incompatibility log.
-- **ariadne** — Governs high-risk ML decisions: GraphSAGE AML signals must be corroborated by deterministic rules, and decisions are sealed and linked to model and data lineage in DataHub.
-- **fintech** — Deterministic AML alert triage that ranks alerts by risk and expected loss instead of inheriting scanner-assigned severity.
+- [**mutante**](https://github.com/annatchijova/mutante) — Adversarial LLM evaluation by prompt mutation: repeated probes, deterministic scoring, sealed traces and per-attack-family observability.
+- [**mutante_**](https://github.com/annatchijova/mutante_) — *Private.* Companion research line for Mutante.
+- [**argos**](https://github.com/annatchijova/argos) — Analyzes texts through 11 philosophical and linguistic frameworks, with per-framework evidence and reproducible rule-based signals; Gemini's semantic reading stays in a separate layer.
+- [**wolf-and-cronos**](https://github.com/annatchijova/wolf-and-cronos) — Social engineering analysis through six frameworks with a corroboration gate and CRONOS traces of hypotheses, evidence, discarded alternatives and decisions.
+- [**corvus**](https://github.com/annatchijova/corvus) — *Private.* Applies six theoretical frameworks and personal baselines to Slack conversations, and requires corroboration before escalating.
+- [**gambit**](https://github.com/annatchijova/gambit) — Negotiation copilot that surfaces pressure signals through deterministic lenses and a separate semantic reading; WATCH mode can classify and draft, but the decision to send stays with the person.
+- [**discordia**](https://github.com/annatchijova/discordia) — Reproducible bounded-autonomy experiment: three conviction modules reason about the same microworld, and contradictions trigger mechanical coercion and a persistent incompatibility log.
+- [**ariadne**](https://github.com/annatchijova/ariadne) — Governs high-risk ML decisions: GraphSAGE AML signals must be corroborated by deterministic rules, and decisions are sealed and linked to model and data lineage in DataHub.
+- [**fintech**](https://github.com/annatchijova/fintech) — Deterministic AML alert triage that ranks alerts by risk and expected loss instead of inheriting scanner-assigned severity.
 
 ### Developer tools
 
-- **crucible** — Compiles agent skills (`SKILL.md`) into traceable contracts, analyzes their composition and tests the controls through mutation and behavioral replay.
-- **cuartel** — MCP registry for a fleet of forensic tools, with renderers for Claude Code, Codex and OpenCode.
-- **koine** — Integrity gate for multilingual documentation: tracks source blocks and translations by hash, and fails CI on stale, altered or sourceless content.
-- **to-build-a-fire** — Takes a read-only snapshot of a merge request, checks bounded authorization invariants and surfaces pending evidence for human review.
-- **phylo** — Evolutionary code optimization: an LLM proposes mutations, isolated candidates run tests and benchmarks, and a signed bundle makes the winning change reproducible.
+- [**crucible**](https://github.com/annatchijova/crucible) — Compiles agent skills (`SKILL.md`) into traceable contracts, analyzes their composition and tests the controls through mutation and behavioral replay.
+- [**cuartel**](https://github.com/annatchijova/cuartel) — MCP registry for a fleet of forensic tools, with renderers for Claude Code, Codex and OpenCode.
+- [**koine**](https://github.com/annatchijova/koine) — Integrity gate for multilingual documentation: tracks source blocks and translations by hash, and fails CI on stale, altered or sourceless content.
+- [**to-build-a-fire**](https://github.com/annatchijova/to-build-a-fire) — Takes a read-only snapshot of a merge request, checks bounded authorization invariants and surfaces pending evidence for human review.
+- [**stylometry-ci**](https://github.com/annatchijova/stylometry-ci) — Private continuous-integration tooling for the Stylometry project.
+- [**phylo**](https://github.com/annatchijova/phylo) — Evolutionary code optimization: an LLM proposes mutations, isolated candidates run tests and benchmarks, and a signed bundle makes the winning change reproducible.
 
 ### People, coordination and social good
 
-- **compass** — Abductive career exploration: keeps rival hypotheses, proposes real-world experiments and only updates its sealed indices with evidence validated by the person. It's not a personality verdict.
-- **impetu** — Proactive agent for autistic and ADHD people: agrees on a next step based on available energy, uses Gmail and Calendar, keeps memory and comes back with scheduled follow-ups.
-- **lifeline** — Humanitarian coordination: validates constraints and provenance of requests, resources, routes and shelters, generates inspectable dispatch proposals and records human approvals.
-- **aporia** — Turns a group's preferences, availability, budgets and constraints into a viable shared plan; if none exists, identifies the minimal changes that would make one possible.
-- **hivemind_tidal** — Hydrological reading monitor that detects contradictions between sensors, with traceability and alerts, applied to flood prevention.
-- **mise** — Deterministic MCP app for pantry inventory, expiration dates, meal planning, resumable cooking sessions, substitutions and shopping lists.
-- **nexo** — Digital rights cases in Argentina: separates source evidence, claims, derived facts, bounded inferences, legal claims and possible actions; prepares requests but doesn't file them.
-- **locoporcolt** — *Private.* Regulated marketplace connecting sellers and buyers without holding the payment or intermediating the regulated transfer.
-- **proyectohermana** — *Private.* Human rights and community support.
+- [**compass**](https://github.com/annatchijova/compass) — Abductive career exploration: keeps rival hypotheses, proposes real-world experiments and only updates its sealed indices with evidence validated by the person. It's not a personality verdict.
+- [**impetu**](https://github.com/annatchijova/impetu) — Proactive agent for autistic and ADHD people: agrees on a next step based on available energy, uses Gmail and Calendar, keeps memory and comes back with scheduled follow-ups.
+- [**lifeline**](https://github.com/annatchijova/lifeline) — Humanitarian coordination: validates constraints and provenance of requests, resources, routes and shelters, generates inspectable dispatch proposals and records human approvals.
+- [**aporia**](https://github.com/annatchijova/aporia) — Turns a group's preferences, availability, budgets and constraints into a viable shared plan; if none exists, identifies the minimal changes that would make one possible.
+- [**hivemind_tidal**](https://github.com/annatchijova/hivemind_tidal) — Hydrological reading monitor that detects contradictions between sensors, with traceability and alerts, applied to flood prevention.
+- [**mise**](https://github.com/annatchijova/mise) — Deterministic MCP app for pantry inventory, expiration dates, meal planning, resumable cooking sessions, substitutions and shopping lists.
+- [**nexo**](https://github.com/annatchijova/nexo) — Digital rights cases in Argentina: separates source evidence, claims, derived facts, bounded inferences, legal claims and possible actions; prepares requests but doesn't file them.
+- [**locoporcolt**](https://github.com/annatchijova/locoporcolt) — *Private.* Regulated marketplace connecting sellers and buyers without holding the payment or intermediating the regulated transfer.
+- [**proyectohermana**](https://github.com/annatchijova/proyectohermana) — *Private.* Human rights and community support.
 
 ### Interactive media and accessibility
 
-- **f1-mythos** — Self-contained bilingual museum of Formula 1 trivia, with fact-or-myth cards, touch navigation and local game state.
-- **pichon** — Satirical interface posing as a national ornithological-human identification and counterintelligence platform.
-- **poes-cabinet** — *Private.* Offline point-and-click escape room: four navigable walls, inventory, logic and cryptography puzzles, hints and saved progress.
-- **sonya** — Generative media notary: audits the prompt, generates and inspects an asset, applies corrections and seals prompt, output, correction and verdict.
-- **rebound** — Indoor navigation concept using biomimetic sonar to help visually impaired people find their way.
-- **splapground** — Seated mixed-reality game concept for Meta Quest.
+- [**f1-mythos**](https://github.com/annatchijova/f1-mythos) — Self-contained bilingual museum of Formula 1 trivia, with fact-or-myth cards, touch navigation and local game state.
+- [**pichon**](https://github.com/annatchijova/pichon) — Satirical interface posing as a national ornithological-human identification and counterintelligence platform.
+- [**poes-cabinet**](https://github.com/annatchijova/poes-cabinet) — *Private.* Offline point-and-click escape room: four navigable walls, inventory, logic and cryptography puzzles, hints and saved progress.
+- [**sonya**](https://github.com/annatchijova/sonya) — Generative media notary: audits the prompt, generates and inspects an asset, applies corrections and seals prompt, output, correction and verdict.
+- [**rebound**](https://github.com/annatchijova/rebound) — Indoor navigation concept using biomimetic sonar to help visually impaired people find their way.
+- [**splapground**](https://github.com/annatchijova/splapground) — Seated mixed-reality game concept for Meta Quest.
 
 ### Agent skills
 
-- **SKILLS** — 92 skills for coding agents, each with triggers and a practical method. They turn abductive research, epistemology, security, forensics and engineering into reusable procedures.
+- [**SKILLS**](https://github.com/annatchijova/SKILLS) — 92 skills for coding agents, each with triggers and a practical method. They turn abductive research, epistemology, security, forensics and engineering into reusable procedures.

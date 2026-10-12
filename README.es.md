@@ -48,7 +48,7 @@ Por eso —jaja— cada repositorio mío tiene un `/docs` que puede llegar a ten
 
 Formaliza el análisis de intención forense como un sistema determinista ejecutable. Combina razonamiento abductivo, análisis entre artefactos, incertidumbre y abstención explícitas, aritmética exacta para las decisiones, paquetes de evidencia sellados y autoauditoría adversarial. Amplía los Indicadores de Compromiso (IoC) con Indicadores de Intención (IoI) para analizar fracturas lógicas, contextuales y conductuales que pueden distinguir error, anomalía, acción deliberada, ocultamiento y manipulación. Los LLM pueden investigar o narrar; no controlan el veredicto.
 
-### JANUS · repositorio privado, en preparación para pymes
+### [JANUS](https://github.com/annatchijova/janus) · repositorio privado, en preparación para pymes
 
 Simulador adversarial de ingeniería social que mide cómo las personas toman decisiones bajo incertidumbre contextual, no si hicieron clic. Trata la sobrerreacción y la credulidad como fallas simétricas, registra procesos de decisión ante casos benignos, maliciosos y ambiguos, y genera informes individuales y organizacionales.
 
@@ -64,7 +64,7 @@ Atestación forense con conocimiento cero (ZK) sobre Midnight: el veredicto se v
 
 Gate de identidad forense para pipelines de GitLab. Siete núcleos forenses independientes comparan un commit con la línea de base conductual y estilística de la persona o el LLM que figura como autor —patrones de comportamiento, entropía, semiótica, cambios léxicos y de registro, cronobiología, atomicidad del commit y huellas sintácticas— y producen resultados deterministas PASS / WARN / REQUIRE_REVIEW / BLOCK con aritmética racional exacta.
 
-### PHYLO-Google · código privado, disponible a pedido
+### [PHYLO-Google](https://github.com/annatchijova/phylo-google) · código privado, disponible a pedido
 
 La línea de PHYLO para la plataforma de Google. En este sistema evolutivo de optimización de código, el modelo propone mutaciones, sandboxes aislados (Pyodide/WASM y V8) ejecutan los candidatos, y pruebas y benchmarks seleccionan los cambios. Un Evolution Bundle firmado, verificable offline, registra la línea de base, las mutaciones, el candidato ganador y las mediciones.
 
@@ -86,83 +86,84 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 
 ### Forense, DFIR y herramientas de investigación
 
-- **zaynor** — Plataforma DFIR local asistida por IA: normaliza y congela la evidencia antes del análisis determinista de VIGÍA; después permite explicar hallazgos sellados o ampliar la investigación con consultas de solo lectura por CLI, web, API y MCP.
-- **vigia** — Centro del proyecto VIGÍA y materiales complementarios.
-- **vigia-cases** — Benchmark DFIR reproducible: material de casos y ground truth separados, mapeo MITRE ATT&CK, manifests SHA-256 y guía de scoring.
-- **forge** — Runtime local, de solo lectura, para auditorías reproducibles de repositorios: analizadores especializados con contratos explícitos, evidencia e hipótesis descartadas conservadas y hallazgos sellados para CLI, Python y MCP.
-- **forge-improved** — Línea multilenguaje de Forge, con auditoría multiagente y abstención explícita cuando el alcance no permite sostener una conclusión.
-- **forge-results** — Manifests, benchmarks e informes por ejecución, separados del runtime para mantener atribución y reproducibilidad.
-- **orbit-guardian** — Análisis de intención en merge requests: núcleos forenses independientes examinan payloads ofuscados, manipulación e ingeniería social, y exigen corroboración antes de presentar el resultado sellado a quienes revisan.
-- **pancito-red-team** — Cada validación adversarial acotada vincula un cambio observable en el objetivo con una falla de control y con la telemetría defensiva que lo registra.
-- **moira** — Encuentra con aritmética racional exacta el corte causal mínimo de un historial determinista: qué transiciones se pueden quitar para cambiar el resultado.
-- **siberian** — Modela el silencio investigativo como cobertura: qué evidencia debería haber producido un alcance de recolección, qué falta, qué es incierto y qué quedó fuera de alcance.
-- **sudo-su** — Investigación jugable de forense Linux en diez niveles: filesystem, permisos, procesos, logs, sockets, timelines, auditd y escalada de privilegios.
-- **annacondaa** — *Privado.* Línea complementaria de ANNACONDA para análisis de casos y flujos de investigación centrados en evidencia.
-- **hackers-argentina** — *Privado.* Recursos curados de ciberseguridad argentina.
-- **logs** — *Privado.* Trazas operativas y artefactos relacionados.
+- [**zaynor**](https://github.com/annatchijova/zaynor) — Plataforma DFIR local asistida por IA: normaliza y congela la evidencia antes del análisis determinista de VIGÍA; después permite explicar hallazgos sellados o ampliar la investigación con consultas de solo lectura por CLI, web, API y MCP.
+- [**vigia**](https://github.com/annatchijova/vigia) — Centro del proyecto VIGÍA y materiales complementarios.
+- [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Benchmark DFIR reproducible: material de casos y ground truth separados, mapeo MITRE ATT&CK, manifests SHA-256 y guía de scoring.
+- [**forge**](https://github.com/annatchijova/forge) — Runtime local, de solo lectura, para auditorías reproducibles de repositorios: analizadores especializados con contratos explícitos, evidencia e hipótesis descartadas conservadas y hallazgos sellados para CLI, Python y MCP.
+- [**forge-improved**](https://github.com/annatchijova/forge-improved) — Línea multilenguaje de Forge, con auditoría multiagente y abstención explícita cuando el alcance no permite sostener una conclusión.
+- [**forge-results**](https://github.com/annatchijova/forge-results) — Manifests, benchmarks e informes por ejecución, separados del runtime para mantener atribución y reproducibilidad.
+- [**orbit-guardian**](https://github.com/annatchijova/orbit-guardian) — Análisis de intención en merge requests: núcleos forenses independientes examinan payloads ofuscados, manipulación e ingeniería social, y exigen corroboración antes de presentar el resultado sellado a quienes revisan.
+- [**pancito-red-team**](https://github.com/annatchijova/pancito-red-team) — Cada validación adversarial acotada vincula un cambio observable en el objetivo con una falla de control y con la telemetría defensiva que lo registra.
+- [**moira**](https://github.com/annatchijova/moira) — Encuentra con aritmética racional exacta el corte causal mínimo de un historial determinista: qué transiciones se pueden quitar para cambiar el resultado.
+- [**siberian**](https://github.com/annatchijova/siberian) — Modela el silencio investigativo como cobertura: qué evidencia debería haber producido un alcance de recolección, qué falta, qué es incierto y qué quedó fuera de alcance.
+- [**sudo-su**](https://github.com/annatchijova/sudo-su) — Investigación jugable de forense Linux en diez niveles: filesystem, permisos, procesos, logs, sockets, timelines, auditd y escalada de privilegios.
+- [**annacondaa**](https://github.com/annatchijova/annacondaa) — *Privado.* Línea complementaria de ANNACONDA para análisis de casos y flujos de investigación centrados en evidencia.
+- [**hackers-argentina**](https://github.com/annatchijova/hackers-argentina) — *Privado.* Recursos curados de ciberseguridad argentina.
+- [**logs**](https://github.com/annatchijova/logs) — *Privado.* Trazas operativas y artefactos relacionados.
 
 ### Criptografía y registros verificables
 
-- **continuum** — Archivo personal cifrado, local y recuperable (ver arriba).
-- **proof** — Verificación de pagos contra el ledger de Stellar (ver arriba).
-- **digital-legacy** — *Privado.* Antecesor de CONTINUUM: archivos personales cifrados, legado digital y acceso gobernado a los registros.
-- **audit-chain** — Registros append-only en C, Java y Rust comparados, con cadenas SHA-256 para detectar modificación, inserción, borrado o reordenamiento.
-- **veridra** — Verificador de afirmaciones de pago en Monad: contrasta transacciones con evidencia de la cadena y registra adjudicaciones deterministas.
-- **muster** — Mercado on-chain con colateral para reservar capacidad de respuesta a incidentes, transferir reservas no utilizadas y hacer cumplir plazos y resolución de disputas.
-- **zk-criptografia** — Investigación en español sobre los fundamentos criptográficos, matemáticos, legales y de identidad experta de la atestación forense de conocimiento cero.
+- [**continuum**](https://github.com/annatchijova/continuum) — Archivo personal cifrado, local y recuperable (ver arriba).
+- [**proof**](https://github.com/annatchijova/proof) — Verificación de pagos contra el ledger de Stellar (ver arriba).
+- [**digital-legacy**](https://github.com/annatchijova/digital-legacy) — *Privado.* Antecesor de CONTINUUM: archivos personales cifrados, legado digital y acceso gobernado a los registros.
+- [**audit-chain**](https://github.com/annatchijova/audit-chain) — Registros append-only en C, Java y Rust comparados, con cadenas SHA-256 para detectar modificación, inserción, borrado o reordenamiento.
+- [**veridra**](https://github.com/annatchijova/veridra) — Verificador de afirmaciones de pago en Monad: contrasta transacciones con evidencia de la cadena y registra adjudicaciones deterministas.
+- [**muster**](https://github.com/annatchijova/muster) — Mercado on-chain con colateral para reservar capacidad de respuesta a incidentes, transferir reservas no utilizadas y hacer cumplir plazos y resolución de disputas.
+- [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Investigación en español sobre los fundamentos criptográficos, matemáticos, legales y de identidad experta de la atestación forense de conocimiento cero.
 
 ### Memoria, procedencia e historial de agentes
 
-- **mneme** — Trata las memorias de agentes como evidencia forense: separa custodia de autoridad, sigue la contaminación hasta decisiones posteriores, reconstruye impacto y exporta bundles verificables offline.
-- **mneme_memory_mcp** — *Privado.* Integración MCP que conecta la memoria de Mneme con flujos de agentes compatibles.
-- **engram** — Superficie XR para inspeccionar procedencia, custodia y grants de autoridad de la memoria MNEME, recorridos causales, contrafactuales y exportaciones verificables de forma independiente.
-- **raven-memory** — Reemplaza la recuperación top-k plana por un campo de memoria adaptativo con refuerzo, olvido, contradicciones, resonancia, inhibición y consolidación. En su benchmark publicado obtiene recall@5 de 0,69 frente a 0,57–0,59 de top-k simple.
-- **raven-memory_** — *Privado.* Continuación del desarrollo de Raven Memory.
-- **remember-the-seasons** — Registra qué memorias se ofrecieron, usaron y reforzaron; sella comprobantes reproducibles y reconstruye estados pasados a partir del historial.
-- **cronos** — Registrador black-box para agentes: captura en el momento memorias recuperadas, herramientas llamadas, hipótesis consideradas o descartadas, evidencia y decisiones, y sella la traza en una cadena SHA-256.
-- **stigmergy** — Memoria multiagente descentralizada: coordinación mediante estado en CockroachDB, hash chains por nodo y un ledger Merkle encadenado, sin orquestador central ni LLM en la ruta de decisión.
+- [**mneme**](https://github.com/annatchijova/mneme) — Trata las memorias de agentes como evidencia forense: separa custodia de autoridad, sigue la contaminación hasta decisiones posteriores, reconstruye impacto y exporta bundles verificables offline.
+- [**mneme_memory_mcp**](https://github.com/annatchijova/mneme_memory_mcp) — *Privado.* Integración MCP que conecta la memoria de Mneme con flujos de agentes compatibles.
+- [**engram**](https://github.com/annatchijova/engram) — Superficie XR para inspeccionar procedencia, custodia y grants de autoridad de la memoria MNEME, recorridos causales, contrafactuales y exportaciones verificables de forma independiente.
+- [**raven-memory**](https://github.com/annatchijova/raven-memory) — Reemplaza la recuperación top-k plana por un campo de memoria adaptativo con refuerzo, olvido, contradicciones, resonancia, inhibición y consolidación. En su benchmark publicado obtiene recall@5 de 0,69 frente a 0,57–0,59 de top-k simple.
+- [**raven-memory_**](https://github.com/annatchijova/raven-memory_) — *Privado.* Continuación del desarrollo de Raven Memory.
+- [**remember-the-seasons**](https://github.com/annatchijova/remember-the-seasons) — Registra qué memorias se ofrecieron, usaron y reforzaron; sella comprobantes reproducibles y reconstruye estados pasados a partir del historial.
+- [**cronos**](https://github.com/annatchijova/cronos) — Registrador black-box para agentes: captura en el momento memorias recuperadas, herramientas llamadas, hipótesis consideradas o descartadas, evidencia y decisiones, y sella la traza en una cadena SHA-256.
+- [**stigmergy**](https://github.com/annatchijova/stigmergy) — Memoria multiagente descentralizada: coordinación mediante estado en CockroachDB, hash chains por nodo y un ledger Merkle encadenado, sin orquestador central ni LLM en la ruta de decisión.
 
 ### IA adversarial, manipulación y decisiones de alto impacto
 
-- **mutante** — Evaluación adversarial de LLM por mutación de prompts: probes repetidos, scoring determinista, trazas selladas y observabilidad por familia de ataque.
-- **mutante_** — *Privado.* Línea complementaria de investigación de Mutante.
-- **argos** — Analiza textos desde 11 marcos filosóficos y lingüísticos, con evidencia por marco y señales reproducibles basadas en reglas; la lectura semántica de Gemini queda en una capa separada.
-- **wolf-and-cronos** — Análisis de ingeniería social desde seis marcos con gate de corroboración y trazas CRONOS de hipótesis, evidencia, alternativas descartadas y decisiones.
-- **corvus** — *Privado.* Aplica seis marcos teóricos y baselines personales a conversaciones de Slack, y exige corroboración antes de escalar.
-- **gambit** — Copiloto de negociación que expone señales de presión con lentes deterministas y una lectura semántica separada; el modo WATCH puede clasificar y preparar borradores, pero la decisión de enviar sigue siendo de la persona.
-- **discordia** — Experimento reproducible de autonomía acotada: tres módulos de convicción razonan sobre un mismo micromundo, y las contradicciones activan coerción mecánica y un registro persistente de incompatibilidades.
-- **ariadne** — Gobierna decisiones de ML de alto riesgo: las señales GraphSAGE para AML deben corroborarse con reglas deterministas, y las decisiones se sellan y se vinculan al linaje de modelo y datos en DataHub.
-- **fintech** — Triage determinista de alertas AML que las ordena por riesgo y pérdida esperada, en vez de heredar la severidad que asignó un scanner.
+- [**mutante**](https://github.com/annatchijova/mutante) — Evaluación adversarial de LLM por mutación de prompts: probes repetidos, scoring determinista, trazas selladas y observabilidad por familia de ataque.
+- [**mutante_**](https://github.com/annatchijova/mutante_) — *Privado.* Línea complementaria de investigación de Mutante.
+- [**argos**](https://github.com/annatchijova/argos) — Analiza textos desde 11 marcos filosóficos y lingüísticos, con evidencia por marco y señales reproducibles basadas en reglas; la lectura semántica de Gemini queda en una capa separada.
+- [**wolf-and-cronos**](https://github.com/annatchijova/wolf-and-cronos) — Análisis de ingeniería social desde seis marcos con gate de corroboración y trazas CRONOS de hipótesis, evidencia, alternativas descartadas y decisiones.
+- [**corvus**](https://github.com/annatchijova/corvus) — *Privado.* Aplica seis marcos teóricos y baselines personales a conversaciones de Slack, y exige corroboración antes de escalar.
+- [**gambit**](https://github.com/annatchijova/gambit) — Copiloto de negociación que expone señales de presión con lentes deterministas y una lectura semántica separada; el modo WATCH puede clasificar y preparar borradores, pero la decisión de enviar sigue siendo de la persona.
+- [**discordia**](https://github.com/annatchijova/discordia) — Experimento reproducible de autonomía acotada: tres módulos de convicción razonan sobre un mismo micromundo, y las contradicciones activan coerción mecánica y un registro persistente de incompatibilidades.
+- [**ariadne**](https://github.com/annatchijova/ariadne) — Gobierna decisiones de ML de alto riesgo: las señales GraphSAGE para AML deben corroborarse con reglas deterministas, y las decisiones se sellan y se vinculan al linaje de modelo y datos en DataHub.
+- [**fintech**](https://github.com/annatchijova/fintech) — Triage determinista de alertas AML que las ordena por riesgo y pérdida esperada, en vez de heredar la severidad que asignó un scanner.
 
 ### Herramientas para desarrollo
 
-- **crucible** — Compila skills de agentes (`SKILL.md`) como contratos trazables, analiza su composición y prueba los controles mediante mutaciones y replay conductual.
-- **cuartel** — Registro MCP para una flota de herramientas forenses, con renderers para Claude Code, Codex y OpenCode.
-- **koine** — Gate de integridad para documentación multilingüe: sigue bloques fuente y traducciones por hash, y hace fallar CI ante contenido desactualizado, alterado o sin fuente.
-- **to-build-a-fire** — Captura una instantánea de solo lectura del merge request, comprueba invariantes acotados de autorización y presenta la evidencia pendiente para revisión humana.
-- **phylo** — Optimización evolutiva de código: un LLM propone mutaciones, candidatos aislados corren pruebas y benchmarks, y un bundle firmado vuelve reproducible el cambio ganador.
+- [**crucible**](https://github.com/annatchijova/crucible) — Compila skills de agentes (`SKILL.md`) como contratos trazables, analiza su composición y prueba los controles mediante mutaciones y replay conductual.
+- [**cuartel**](https://github.com/annatchijova/cuartel) — Registro MCP para una flota de herramientas forenses, con renderers para Claude Code, Codex y OpenCode.
+- [**koine**](https://github.com/annatchijova/koine) — Gate de integridad para documentación multilingüe: sigue bloques fuente y traducciones por hash, y hace fallar CI ante contenido desactualizado, alterado o sin fuente.
+- [**to-build-a-fire**](https://github.com/annatchijova/to-build-a-fire) — Captura una instantánea de solo lectura del merge request, comprueba invariantes acotados de autorización y presenta la evidencia pendiente para revisión humana.
+- [**stylometry-ci**](https://github.com/annatchijova/stylometry-ci) — Herramientas privadas de integración continua para el proyecto Stylometry.
+- [**phylo**](https://github.com/annatchijova/phylo) — Optimización evolutiva de código: un LLM propone mutaciones, candidatos aislados corren pruebas y benchmarks, y un bundle firmado vuelve reproducible el cambio ganador.
 
 ### Personas, coordinación y beneficio social
 
-- **compass** — Exploración vocacional abductiva: mantiene hipótesis rivales, propone experimentos en el mundo real y solo actualiza sus índices sellados con evidencia validada por la persona. No es un veredicto de personalidad.
-- **impetu** — Agente proactivo para personas autistas y con TDAH: acuerda un próximo paso según la energía disponible, usa Gmail y Calendar, mantiene memoria y vuelve con seguimientos programados.
-- **lifeline** — Coordinación humanitaria: valida restricciones y procedencia de pedidos, recursos, rutas y refugios, genera propuestas de despacho inspeccionables y registra aprobaciones humanas.
-- **aporia** — Convierte preferencias, disponibilidad, presupuestos y restricciones de un grupo en un plan compartido viable; si no hay ninguno, identifica los cambios mínimos que lo harían posible.
-- **hivemind_tidal** — Monitoreo de lecturas hidrológicas que detecta contradicciones entre sensores, con trazabilidad y alertas, aplicado a la prevención de inundaciones.
-- **mise** — App MCP determinista para despensa, vencimientos, planificación de comidas, sesiones de cocina reanudables, sustituciones y listas de compras.
-- **nexo** — Casos de derechos digitales en Argentina: separa evidencia fuente, afirmaciones, hechos derivados, inferencias acotadas, reclamos legales y acciones posibles; prepara solicitudes, pero no las presenta.
-- **locoporcolt** — *Privado.* Marketplace regulado que conecta vendedores y compradores sin custodiar el pago ni intermediar la transferencia regulada.
-- **proyectohermana** — *Privado.* Derechos humanos y apoyo comunitario.
+- [**compass**](https://github.com/annatchijova/compass) — Exploración vocacional abductiva: mantiene hipótesis rivales, propone experimentos en el mundo real y solo actualiza sus índices sellados con evidencia validada por la persona. No es un veredicto de personalidad.
+- [**impetu**](https://github.com/annatchijova/impetu) — Agente proactivo para personas autistas y con TDAH: acuerda un próximo paso según la energía disponible, usa Gmail y Calendar, mantiene memoria y vuelve con seguimientos programados.
+- [**lifeline**](https://github.com/annatchijova/lifeline) — Coordinación humanitaria: valida restricciones y procedencia de pedidos, recursos, rutas y refugios, genera propuestas de despacho inspeccionables y registra aprobaciones humanas.
+- [**aporia**](https://github.com/annatchijova/aporia) — Convierte preferencias, disponibilidad, presupuestos y restricciones de un grupo en un plan compartido viable; si no hay ninguno, identifica los cambios mínimos que lo harían posible.
+- [**hivemind_tidal**](https://github.com/annatchijova/hivemind_tidal) — Monitoreo de lecturas hidrológicas que detecta contradicciones entre sensores, con trazabilidad y alertas, aplicado a la prevención de inundaciones.
+- [**mise**](https://github.com/annatchijova/mise) — App MCP determinista para despensa, vencimientos, planificación de comidas, sesiones de cocina reanudables, sustituciones y listas de compras.
+- [**nexo**](https://github.com/annatchijova/nexo) — Casos de derechos digitales en Argentina: separa evidencia fuente, afirmaciones, hechos derivados, inferencias acotadas, reclamos legales y acciones posibles; prepara solicitudes, pero no las presenta.
+- [**locoporcolt**](https://github.com/annatchijova/locoporcolt) — *Privado.* Marketplace regulado que conecta vendedores y compradores sin custodiar el pago ni intermediar la transferencia regulada.
+- [**proyectohermana**](https://github.com/annatchijova/proyectohermana) — *Privado.* Derechos humanos y apoyo comunitario.
 
 ### Medios interactivos y accesibilidad
 
-- **f1-mythos** — Museo bilingüe y autocontenido de curiosidades de Fórmula 1, con tarjetas fact-or-myth, navegación táctil y estado de juego local.
-- **pichon** — Interfaz satírica que se presenta como plataforma nacional de identificación ornitológico-humana y contrainteligencia.
-- **poes-cabinet** — *Privado.* Escape room offline point-and-click: cuatro paredes navegables, inventario, puzzles de lógica y criptografía, pistas y progreso guardado.
-- **sonya** — Notaría de medios generativos: audita el prompt, genera e inspecciona un asset, aplica correcciones y sella prompt, salida, corrección y veredicto.
-- **rebound** — Concepto de navegación interior con sonar biomimético para la orientación de personas con discapacidad visual.
-- **splapground** — Concepto de juego de realidad mixta sentado para Meta Quest.
+- [**f1-mythos**](https://github.com/annatchijova/f1-mythos) — Museo bilingüe y autocontenido de curiosidades de Fórmula 1, con tarjetas fact-or-myth, navegación táctil y estado de juego local.
+- [**pichon**](https://github.com/annatchijova/pichon) — Interfaz satírica que se presenta como plataforma nacional de identificación ornitológico-humana y contrainteligencia.
+- [**poes-cabinet**](https://github.com/annatchijova/poes-cabinet) — *Privado.* Escape room offline point-and-click: cuatro paredes navegables, inventario, puzzles de lógica y criptografía, pistas y progreso guardado.
+- [**sonya**](https://github.com/annatchijova/sonya) — Notaría de medios generativos: audita el prompt, genera e inspecciona un asset, aplica correcciones y sella prompt, salida, corrección y veredicto.
+- [**rebound**](https://github.com/annatchijova/rebound) — Concepto de navegación interior con sonar biomimético para la orientación de personas con discapacidad visual.
+- [**splapground**](https://github.com/annatchijova/splapground) — Concepto de juego de realidad mixta sentado para Meta Quest.
 
 ### Skills para agentes
 
-- **SKILLS** — 92 skills para agentes de programación, cada una con disparadores y un método práctico. Convierten investigación abductiva, epistemología, seguridad, forense e ingeniería en procedimientos reutilizables.
+- [**SKILLS**](https://github.com/annatchijova/SKILLS) — 92 skills para agentes de programación, cada una con disparadores y un método práctico. Convierten investigación abductiva, epistemología, seguridad, forense e ingeniería en procedimientos reutilizables.
