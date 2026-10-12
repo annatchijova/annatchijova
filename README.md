@@ -68,13 +68,13 @@ A forensic identity gate for GitLab pipelines. Seven independent forensic cores 
 
 The PHYLO line for Google's platform. In this evolutionary code optimization system, the model proposes mutations, isolated sandboxes (Pyodide/WASM and V8) run the candidates, and tests and benchmarks select the changes. A signed Evolution Bundle, verifiable offline, records the baseline, the mutations, the winning candidate and the measurements.
 
-### Applied cryptography: CONTINUUM · PROOF · VELO
+### Applied Cryptography & Verifiable Systems: CONTINUUM · PROOF · VELO
 
 A research line on how cryptographic mechanisms can make decisions, evidence and sensitive state independently verifiable, without exposing more information than necessary.
 
-- **CONTINUUM** is an encrypted, local, recoverable life archive: AES-256-GCM, SHA-256 audit chains, deterministic classification and retrieval, access policies and Shamir Secret Sharing for threshold recovery. Optional AI narration only receives already-selected evidence and cannot alter ranking, access, integrity or release decisions.
-- **PROOF** verifies payment claims against the Stellar ledger instead of trusting screenshots or data declared by the payer. It reconstructs the transaction facts, checks each claim separately, distinguishes VERIFIED / NOT VERIFIED / INSUFFICIENT EVIDENCE and seals the package with canonical serialization and SHA-256. Its independent verifier detects later tampering; it was exercised end-to-end on Stellar Testnet.
-- **VELO** (above) takes the same idea to forensic attestation: only a commitment, the declared verdict and the proof reach the chain, and the circuit constraints prevent producing an invalid attestation by bypassing application-level checks.
+- [**CONTINUUM**](https://github.com/annatchijova/continuum) is an encrypted, local, recoverable life archive: AES-256-GCM, SHA-256 audit chains, deterministic classification and retrieval, access policies and Shamir Secret Sharing for threshold recovery. Optional AI narration only receives already-selected evidence and cannot alter ranking, access, integrity or release decisions.
+- [**PROOF**](https://github.com/annatchijova/proof) verifies payment claims against the Stellar ledger instead of trusting screenshots or data declared by the payer. It reconstructs the transaction facts, checks each claim separately, distinguishes VERIFIED / NOT VERIFIED / INSUFFICIENT EVIDENCE and seals the package with canonical serialization and SHA-256. Its independent verifier detects later tampering; it was exercised end-to-end on Stellar Testnet.
+- [**VELO**](https://github.com/annatchijova/velo) (above) takes the same idea to forensic attestation: only a commitment, the declared verdict and the proof reach the chain, and the circuit constraints prevent producing an invalid attestation by bypassing application-level checks.
 
 Together they explore verifiability without unnecessary disclosure: encrypted local custody, fact verification on a public ledger, and privacy-preserving forensic attestation.
 
