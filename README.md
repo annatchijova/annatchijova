@@ -44,6 +44,10 @@ That's why —haha— every repo of mine has a `/docs` folder that can hold doze
 
 ## Featured projects
 
+### [KRAKADYL](https://github.com/annatchijova/krakadyl)
+
+An active-investigation agent that keeps a case's evidence, authority and continuity intact under time pressure. The AI proposes, and a deterministic engine decides and seals every verdict before any model is called — SHA-256 receipts, no float in the decision path, and an independent standard-library verifier. Reported is not verified: it separates work that was assigned, reported done and independently verified, and never silently expands a mandate. Built with Meta's Muse Spark and SAM 3.1 for the Meta Global AI Developer Hackathon; live showcase at [krakadyl-live.vercel.app](https://krakadyl-live.vercel.app).
+
 ### [VIGÍA](https://github.com/annatchijova/vigia-intent-analysis)
 
 Formalizes forensic intent analysis as an executable deterministic system. It combines abductive reasoning, cross-artifact analysis, explicit uncertainty and abstention, exact arithmetic for decisions, sealed evidence packages and adversarial self-audit. It extends Indicators of Compromise (IoC) with Indicators of Intent (IoI) to analyze logical, contextual and behavioral fractures that can tell apart error, anomaly, deliberate action, concealment and manipulation. LLMs can investigate or narrate; they don't control the verdict.
@@ -86,6 +90,7 @@ Repositories grouped by area. Those marked *private* are available on request or
 
 ### Forensics, DFIR and investigation tools
 
+- [**krakadyl**](https://github.com/annatchijova/krakadyl) — Active-investigation agent that preserves evidence, authority and continuity; the AI proposes while a deterministic engine seals every verdict, with SHA-256 receipts and an independent verifier. Built with Meta's Muse Spark and SAM 3.1.
 - [**zaynor**](https://github.com/annatchijova/zaynor) — Local AI-assisted DFIR platform: normalizes and freezes evidence before VIGÍA's deterministic analysis; then lets you explain sealed findings or extend the investigation with read-only queries via CLI, web, API and MCP.
 - [**vigia**](https://github.com/annatchijova/vigia) — Hub for the VIGÍA project and supporting materials.
 - [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Reproducible DFIR benchmark: case material and ground truth kept separate, MITRE ATT&CK mapping, SHA-256 manifests and scoring guide.
@@ -107,6 +112,7 @@ Repositories grouped by area. Those marked *private* are available on request or
 - [**proof**](https://github.com/annatchijova/proof) — Payment verification against the Stellar ledger (see above).
 - [**digital-legacy**](https://github.com/annatchijova/digital-legacy) — *Private.* Predecessor of CONTINUUM: encrypted personal archives, digital legacy and governed access to records.
 - [**audit-chain**](https://github.com/annatchijova/audit-chain) — Append-only logs compared across C, Java and Rust, with SHA-256 chains to detect modification, insertion, deletion or reordering.
+- [**the-black-ledger**](https://github.com/annatchijova/the-black-ledger) — Auditable shared-expense ledger: integer minor units, rational FX with half-even rounding, a hash-chained event log and canonical serialization; balances are derived only from validated events, and narrative signals observe without changing them.
 - [**veridra**](https://github.com/annatchijova/veridra) — Payment claim verifier on Monad: checks transactions against on-chain evidence and records deterministic adjudications.
 - [**muster**](https://github.com/annatchijova/muster) — Collateralized on-chain market to reserve incident response capacity, transfer unused reservations, and enforce service deadlines and dispute resolution.
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Spanish-language research on the cryptographic, mathematical, legal and expert-identity foundations of zero-knowledge forensic attestation.
@@ -131,6 +137,7 @@ Repositories grouped by area. Those marked *private* are available on request or
 - [**corvus**](https://github.com/annatchijova/corvus) — *Private.* Applies six theoretical frameworks and personal baselines to Slack conversations, and requires corroboration before escalating.
 - [**gambit**](https://github.com/annatchijova/gambit) — Negotiation copilot that surfaces pressure signals through deterministic lenses and a separate semantic reading; WATCH mode can classify and draft, but the decision to send stays with the person.
 - [**discordia**](https://github.com/annatchijova/discordia) — Reproducible bounded-autonomy experiment: three conviction modules reason about the same microworld, and contradictions trigger mechanical coercion and a persistent incompatibility log.
+- [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Research corpus on reward hacking as a sociotechnical phenomenon from a Social Sciences lens: reference systems, the economy of effort and the limits of observation in LLM agents — asking whether we measure how much reward hacking happens or how much we can recognize.
 - [**ariadne**](https://github.com/annatchijova/ariadne) — Governs high-risk ML decisions: GraphSAGE AML signals must be corroborated by deterministic rules, and decisions are sealed and linked to model and data lineage in DataHub.
 - [**fintech**](https://github.com/annatchijova/fintech) — Deterministic AML alert triage that ranks alerts by risk and expected loss instead of inheriting scanner-assigned severity.
 
@@ -147,6 +154,7 @@ Repositories grouped by area. Those marked *private* are available on request or
 
 - [**compass**](https://github.com/annatchijova/compass) — Abductive career exploration: keeps rival hypotheses, proposes real-world experiments and only updates its sealed indices with evidence validated by the person. It's not a personality verdict.
 - [**impetu**](https://github.com/annatchijova/impetu) — Proactive agent for autistic and ADHD people: agrees on a next step based on available energy, uses Gmail and Calendar, keeps memory and comes back with scheduled follow-ups.
+- [**sin-miedo**](https://github.com/annatchijova/sin-miedo) — *Private.* A safe, low-cognitive-load space to practice digital procedures before facing them for real, accompanied by AI — for people who block on a digital task because of cognitive load or executive function, not lack of knowledge.
 - [**lifeline**](https://github.com/annatchijova/lifeline) — Humanitarian coordination: validates constraints and provenance of requests, resources, routes and shelters, generates inspectable dispatch proposals and records human approvals.
 - [**aporia**](https://github.com/annatchijova/aporia) — Turns a group's preferences, availability, budgets and constraints into a viable shared plan; if none exists, identifies the minimal changes that would make one possible.
 - [**hivemind_tidal**](https://github.com/annatchijova/hivemind_tidal) — Hydrological reading monitor that detects contradictions between sensors, with traceability and alerts, applied to flood prevention.

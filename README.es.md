@@ -44,6 +44,10 @@ Por eso —jaja— cada repositorio mío tiene un `/docs` que puede llegar a ten
 
 ## Proyectos destacados
 
+### [KRAKADYL](https://github.com/annatchijova/krakadyl)
+
+Un agente de investigación activa que mantiene intactas la evidencia, la autoridad y la continuidad de un caso bajo presión de tiempo. La IA propone, y un motor determinista decide y sella cada veredicto antes de llamar a ningún modelo — recibos SHA-256, sin coma flotante en la ruta de decisión, y un verificador independiente de biblioteca estándar. Lo reportado no está verificado: separa el trabajo asignado, el reportado como hecho y el verificado de forma independiente, y nunca amplía un mandato en silencio. Construido con Muse Spark y SAM 3.1 de Meta para el Meta Global AI Developer Hackathon; showcase en vivo en [krakadyl-live.vercel.app](https://krakadyl-live.vercel.app).
+
 ### [VIGÍA](https://github.com/annatchijova/vigia-intent-analysis)
 
 Formaliza el análisis de intención forense como un sistema determinista ejecutable. Combina razonamiento abductivo, análisis entre artefactos, incertidumbre y abstención explícitas, aritmética exacta para las decisiones, paquetes de evidencia sellados y autoauditoría adversarial. Amplía los Indicadores de Compromiso (IoC) con Indicadores de Intención (IoI) para analizar fracturas lógicas, contextuales y conductuales que pueden distinguir error, anomalía, acción deliberada, ocultamiento y manipulación. Los LLM pueden investigar o narrar; no controlan el veredicto.
@@ -86,6 +90,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 
 ### Forense, DFIR y herramientas de investigación
 
+- [**krakadyl**](https://github.com/annatchijova/krakadyl) — Agente de investigación activa que preserva evidencia, autoridad y continuidad; la IA propone mientras un motor determinista sella cada veredicto, con recibos SHA-256 y un verificador independiente. Construido con Muse Spark y SAM 3.1 de Meta.
 - [**zaynor**](https://github.com/annatchijova/zaynor) — Plataforma DFIR local asistida por IA: normaliza y congela la evidencia antes del análisis determinista de VIGÍA; después permite explicar hallazgos sellados o ampliar la investigación con consultas de solo lectura por CLI, web, API y MCP.
 - [**vigia**](https://github.com/annatchijova/vigia) — Centro del proyecto VIGÍA y materiales complementarios.
 - [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Benchmark DFIR reproducible: material de casos y ground truth separados, mapeo MITRE ATT&CK, manifests SHA-256 y guía de scoring.
@@ -107,6 +112,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 - [**proof**](https://github.com/annatchijova/proof) — Verificación de pagos contra el ledger de Stellar (ver arriba).
 - [**digital-legacy**](https://github.com/annatchijova/digital-legacy) — *Privado.* Antecesor de CONTINUUM: archivos personales cifrados, legado digital y acceso gobernado a los registros.
 - [**audit-chain**](https://github.com/annatchijova/audit-chain) — Registros append-only en C, Java y Rust comparados, con cadenas SHA-256 para detectar modificación, inserción, borrado o reordenamiento.
+- [**the-black-ledger**](https://github.com/annatchijova/the-black-ledger) — Libro de gastos compartidos auditable: unidades enteras mínimas, conversión de moneda racional con redondeo half-even, un registro de eventos encadenado por hash y serialización canónica; los saldos se derivan solo de eventos validados, y las señales narrativas observan sin modificarlos.
 - [**veridra**](https://github.com/annatchijova/veridra) — Verificador de afirmaciones de pago en Monad: contrasta transacciones con evidencia de la cadena y registra adjudicaciones deterministas.
 - [**muster**](https://github.com/annatchijova/muster) — Mercado on-chain con colateral para reservar capacidad de respuesta a incidentes, transferir reservas no utilizadas y hacer cumplir plazos y resolución de disputas.
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Investigación en español sobre los fundamentos criptográficos, matemáticos, legales y de identidad experta de la atestación forense de conocimiento cero.
@@ -131,6 +137,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 - [**corvus**](https://github.com/annatchijova/corvus) — *Privado.* Aplica seis marcos teóricos y baselines personales a conversaciones de Slack, y exige corroboración antes de escalar.
 - [**gambit**](https://github.com/annatchijova/gambit) — Copiloto de negociación que expone señales de presión con lentes deterministas y una lectura semántica separada; el modo WATCH puede clasificar y preparar borradores, pero la decisión de enviar sigue siendo de la persona.
 - [**discordia**](https://github.com/annatchijova/discordia) — Experimento reproducible de autonomía acotada: tres módulos de convicción razonan sobre un mismo micromundo, y las contradicciones activan coerción mecánica y un registro persistente de incompatibilidades.
+- [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Corpus de investigación sobre el reward hacking como fenómeno sociotécnico desde las Ciencias Sociales: sistemas de referencia, la economía del esfuerzo y los límites de observación en agentes LLM — preguntando si medimos cuánto reward hacking ocurre o cuánto somos capaces de reconocer.
 - [**ariadne**](https://github.com/annatchijova/ariadne) — Gobierna decisiones de ML de alto riesgo: las señales GraphSAGE para AML deben corroborarse con reglas deterministas, y las decisiones se sellan y se vinculan al linaje de modelo y datos en DataHub.
 - [**fintech**](https://github.com/annatchijova/fintech) — Triage determinista de alertas AML que las ordena por riesgo y pérdida esperada, en vez de heredar la severidad que asignó un scanner.
 
@@ -147,6 +154,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 
 - [**compass**](https://github.com/annatchijova/compass) — Exploración vocacional abductiva: mantiene hipótesis rivales, propone experimentos en el mundo real y solo actualiza sus índices sellados con evidencia validada por la persona. No es un veredicto de personalidad.
 - [**impetu**](https://github.com/annatchijova/impetu) — Agente proactivo para personas autistas y con TDAH: acuerda un próximo paso según la energía disponible, usa Gmail y Calendar, mantiene memoria y vuelve con seguimientos programados.
+- [**sin-miedo**](https://github.com/annatchijova/sin-miedo) — *Privado.* Un espacio seguro y de baja carga cognitiva para practicar trámites digitales antes de enfrentarlos de verdad, acompañado por IA — para personas que se bloquean ante una tarea digital por carga cognitiva o funciones ejecutivas, no por falta de conocimiento.
 - [**lifeline**](https://github.com/annatchijova/lifeline) — Coordinación humanitaria: valida restricciones y procedencia de pedidos, recursos, rutas y refugios, genera propuestas de despacho inspeccionables y registra aprobaciones humanas.
 - [**aporia**](https://github.com/annatchijova/aporia) — Convierte preferencias, disponibilidad, presupuestos y restricciones de un grupo en un plan compartido viable; si no hay ninguno, identifica los cambios mínimos que lo harían posible.
 - [**hivemind_tidal**](https://github.com/annatchijova/hivemind_tidal) — Monitoreo de lecturas hidrológicas que detecta contradicciones entre sensores, con trazabilidad y alertas, aplicado a la prevención de inundaciones.
