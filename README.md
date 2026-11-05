@@ -1,6 +1,6 @@
 # Anna Tchijova
 
-**English** · [Español](README.es.md) · [LinkedIn](https://www.linkedin.com/in/anna-tchijova/)
+**English** · [Español](README.es.md) · [Русский](README.ru.md) · [LinkedIn](https://www.linkedin.com/in/anna-tchijova/)
 
 Hi, I'm Anna Tchijova. I was born in Russia and I live in Argentina. I'm a Formula 1 fan —McLaren and Alain Prost, specifically—, a sentientist, and I practice effective altruism. And now I build systems! Almost all of them under Apache 2.0 or MIT.
 
@@ -44,13 +44,13 @@ That's why —haha— every repo of mine has a `/docs` folder that can hold doze
 
 ## Featured projects
 
-### [KRAKADYL](https://github.com/annatchijova/krakadyl)
-
-An active-investigation agent that keeps a case's evidence, authority and continuity intact under time pressure. The AI proposes, and a deterministic engine decides and seals every verdict before any model is called — SHA-256 receipts, no float in the decision path, and an independent standard-library verifier. Reported is not verified: it separates work that was assigned, reported done and independently verified, and never silently expands a mandate. Built with Meta's Muse Spark and SAM 3.1 for the Meta Global AI Developer Hackathon; live showcase at [krakadyl-live.vercel.app](https://krakadyl-live.vercel.app).
-
 ### [VIGÍA](https://github.com/annatchijova/vigia-intent-analysis)
 
 Formalizes forensic intent analysis as an executable deterministic system. It combines abductive reasoning, cross-artifact analysis, explicit uncertainty and abstention, exact arithmetic for decisions, sealed evidence packages and adversarial self-audit. It extends Indicators of Compromise (IoC) with Indicators of Intent (IoI) to analyze logical, contextual and behavioral fractures that can tell apart error, anomaly, deliberate action, concealment and manipulation. LLMs can investigate or narrate; they don't control the verdict.
+
+### [KRAKADYL](https://github.com/annatchijova/krakadyl)
+
+An active-investigation agent that keeps a case's evidence, authority and continuity intact under time pressure. The AI proposes, and a deterministic engine decides and seals every verdict before any model is called — SHA-256 receipts, no float in the decision path, and an independent standard-library verifier. Reported is not verified: it separates work that was assigned, reported done and independently verified, and never silently expands a mandate. Built with Meta's Muse Spark and SAM 3.1 for the Meta Global AI Developer Hackathon; live showcase at [krakadyl-live.vercel.app](https://krakadyl-live.vercel.app).
 
 ### [JANUS](https://github.com/annatchijova/janus) · private repo, preparing launch for SMBs
 
@@ -90,10 +90,12 @@ Repositories grouped by area. Those marked *private* are available on request or
 
 ### Forensics, DFIR and investigation tools
 
+- [**vigia**](https://github.com/annatchijova/vigia) — Hub for the VIGÍA project and supporting materials.
+- [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — Spanish-language archive of VIGÍA's academic documentation, currently maintained as historical material.
 - [**krakadyl**](https://github.com/annatchijova/krakadyl) — Active-investigation agent that preserves evidence, authority and continuity; the AI proposes while a deterministic engine seals every verdict, with SHA-256 receipts and an independent verifier. Built with Meta's Muse Spark and SAM 3.1.
 - [**zaynor**](https://github.com/annatchijova/zaynor) — Local AI-assisted DFIR platform: normalizes and freezes evidence before VIGÍA's deterministic analysis; then lets you explain sealed findings or extend the investigation with read-only queries via CLI, web, API and MCP.
-- [**vigia**](https://github.com/annatchijova/vigia) — Hub for the VIGÍA project and supporting materials.
 - [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Reproducible DFIR benchmark: case material and ground truth kept separate, MITRE ATT&CK mapping, SHA-256 manifests and scoring guide.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Spanish study guide to Dynamic Incident Response, published under CC BY 4.0.
 - [**forge**](https://github.com/annatchijova/forge) — Local, read-only runtime for reproducible repository audits: specialized analyzers with explicit contracts, preserved evidence and discarded hypotheses, and sealed findings for CLI, Python and MCP.
 - [**forge-improved**](https://github.com/annatchijova/forge-improved) — Multi-language line of Forge, with multi-agent auditing and explicit abstention when the scope can't support a conclusion.
 - [**forge-results**](https://github.com/annatchijova/forge-results) — Per-run manifests, benchmarks and reports, kept separate from the runtime to preserve attribution and reproducibility.
@@ -145,10 +147,16 @@ Repositories grouped by area. Those marked *private* are available on request or
 
 - [**crucible**](https://github.com/annatchijova/crucible) — Compiles agent skills (`SKILL.md`) into traceable contracts, analyzes their composition and tests the controls through mutation and behavioral replay.
 - [**cuartel**](https://github.com/annatchijova/cuartel) — MCP registry for a fleet of forensic tools, with renderers for Claude Code, Codex and OpenCode.
+- [**funes-the-memorious**](https://github.com/annatchijova/funes-the-memorious) — Verifiable build provenance, test evidence and tamper detection for QNX 8.0.
 - [**koine**](https://github.com/annatchijova/koine) — Integrity gate for multilingual documentation: tracks source blocks and translations by hash, and fails CI on stale, altered or sourceless content.
+- [**necromancer**](https://github.com/annatchijova/necromancer) — Software archaeology for abandoned projects: reconstructs what happened, verifies what remains true and recovers what can be saved.
 - [**to-build-a-fire**](https://github.com/annatchijova/to-build-a-fire) — Takes a read-only snapshot of a merge request, checks bounded authorization invariants and surfaces pending evidence for human review.
 - [**stylometry-ci**](https://github.com/annatchijova/stylometry-ci) — Private continuous-integration tooling for the Stylometry project.
 - [**phylo**](https://github.com/annatchijova/phylo) — Evolutionary code optimization: an LLM proposes mutations, isolated candidates run tests and benchmarks, and a signed bundle makes the winning change reproducible.
+
+### Research and documentation
+
+- [**investigaciones**](https://github.com/annatchijova/investigaciones) — Personal archive of research reports written with AI assistance from Anna Tchijova's questions, prompts and editorial decisions.
 
 ### People, coordination and social good
 
