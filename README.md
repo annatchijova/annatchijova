@@ -157,6 +157,10 @@ Repositories grouped by area. Those marked *private* are available on request or
 ### Research and documentation
 
 - [**investigaciones**](https://github.com/annatchijova/investigaciones) — Personal archive of research reports written with AI assistance from Anna Tchijova's questions, prompts and editorial decisions.
+- [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — Research and academic documentation for VIGÍA's forensic intent-analysis line.
+- [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Spanish-language research on zero-knowledge cryptography, forensic attestation and expert identity.
+- [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Social Sciences research on reward hacking as a sociotechnical phenomenon.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Spanish translation and study guide for Sans Institute's Dynamic Incident Response material.
 
 ### People, coordination and social good
 

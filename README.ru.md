@@ -113,6 +113,10 @@ Zero-knowledge attestation судебно-криминалистических �
 - [**funes-the-memorious**](https://github.com/annatchijova/funes-the-memorious) — verifiable build provenance и test evidence для QNX 8.0.
 - [**necromancer**](https://github.com/annatchijova/necromancer) — software archaeology для заброшенных проектов.
 - [**investigaciones**](https://github.com/annatchijova/investigaciones) — архив исследовательских отчётов, созданных с помощью ИИ.
+- [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — исследовательская и академическая документация линии forensic intent analysis VIGÍA.
+- [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — испаноязычное исследование zero-knowledge cryptography, forensic attestation и экспертной идентичности.
+- [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — исследование reward hacking как социотехнического явления с точки зрения социальных наук.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — испанский перевод и учебное руководство по материалу Dynamic Incident Response института Sans.
 - [**SKILLS**](https://github.com/annatchijova/SKILLS) — 92 оригинальные skills для агентной разработки.
 
 ### Люди, координация и социальное благо

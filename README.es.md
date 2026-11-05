@@ -157,6 +157,10 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 ### Investigación y documentación
 
 - [**investigaciones**](https://github.com/annatchijova/investigaciones) — Archivo personal de informes de investigación escritos con asistencia de IA a partir de preguntas, prompts y decisiones editoriales de Anna Tchijova.
+- [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — Investigación y documentación académica de la línea de análisis de intención forense de VIGÍA.
+- [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Investigación en español sobre criptografía de conocimiento cero, atestación forense e identidad experta.
+- [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Investigación desde las Ciencias Sociales sobre el reward hacking como fenómeno sociotécnico.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Traducción y guía de estudio en español del material Dynamic Incident Response de Sans Institute.
 
 ### Personas, coordinación y beneficio social
 
