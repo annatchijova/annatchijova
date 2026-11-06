@@ -60,7 +60,7 @@ Zero-knowledge attestation судебно-криминалистических �
 - [**krakadyl**](https://github.com/annatchijova/krakadyl) — агент активного расследования с детерминированным sealed verdict.
 - [**zaynor**](https://github.com/annatchijova/zaynor) — локальная DFIR-платформа с AI-assisted analysis.
 - [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — воспроизводимый DFIR benchmark с ground truth и ATT&CK mapping.
-- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — учебное руководство на испанском языке.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — техническое учебное руководство на испанском по *Dynamic Incident Response: A Framework for Security Teams* Джошуа Райта, при участии Райана Чапмана, Меган Родди-Фонсека и Дина Парсонса. Это не перевод книги, а самостоятельный технический синтез по главам; каждый файл указывает точный источник, который он обобщает.
 - [**annaconda**](https://github.com/annatchijova/annaconda) — автономный DFIR agent fleet.
 - [**pancito-red-team**](https://github.com/annatchijova/pancito-red-team) — ограниченная adversary validation с воспроизводимыми доказательствами.
 - [**orbit-guardian**](https://github.com/annatchijova/orbit-guardian) — forensic MR audit skill для GitLab Orbit.
@@ -116,8 +116,9 @@ Zero-knowledge attestation судебно-криминалистических �
 - [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — исследовательская и академическая документация линии forensic intent analysis VIGÍA.
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — испаноязычное исследование zero-knowledge cryptography, forensic attestation и экспертной идентичности.
 - [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — исследование reward hacking как социотехнического явления с точки зрения социальных наук.
-- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — испанский перевод и учебное руководство по материалу Dynamic Incident Response института Sans.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — техническое учебное руководство на испанском по *Dynamic Incident Response: A Framework for Security Teams* Джошуа Райта, при участии Райана Чапмана, Меган Родди-Фонсека и Дина Парсонса. Это не перевод книги, а самостоятельный технический синтез по главам; каждый файл указывает точный источник, который он обобщает.
 - [**SKILLS**](https://github.com/annatchijova/SKILLS) — 92 оригинальные skills для агентной разработки.
+- [**hackers-argentina**](https://github.com/annatchijova/hackers-argentina) — *private*, аргентинские ресурсы по кибербезопасности; доступ по разрешению.
 
 ### Люди, координация и социальное благо
 

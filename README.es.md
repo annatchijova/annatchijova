@@ -95,7 +95,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 - [**krakadyl**](https://github.com/annatchijova/krakadyl) — Agente de investigación activa que preserva evidencia, autoridad y continuidad; la IA propone mientras un motor determinista sella cada veredicto, con recibos SHA-256 y un verificador independiente. Construido con Muse Spark y SAM 3.1 de Meta.
 - [**zaynor**](https://github.com/annatchijova/zaynor) — Plataforma DFIR local asistida por IA: normaliza y congela la evidencia antes del análisis determinista de VIGÍA; después permite explicar hallazgos sellados o ampliar la investigación con consultas de solo lectura por CLI, web, API y MCP.
 - [**vigia-cases**](https://github.com/annatchijova/vigia-cases) — Benchmark DFIR reproducible: material de casos y ground truth separados, mapeo MITRE ATT&CK, manifests SHA-256 y guía de scoring.
-- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Guía de estudio en español de Dynamic Incident Response, publicada bajo CC BY 4.0.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Guía de estudio técnica en español de *Dynamic Incident Response: A Framework for Security Teams*, de Joshua Wright, con Ryan Chapman, Megan Roddie-Fonseca y Dean Parsons. No es una traducción del libro: es una síntesis técnica propia, capítulo por capítulo, escrita en español; cada archivo atribuye la fuente exacta que resume.
 - [**forge**](https://github.com/annatchijova/forge) — Runtime local, de solo lectura, para auditorías reproducibles de repositorios: analizadores especializados con contratos explícitos, evidencia e hipótesis descartadas conservadas y hallazgos sellados para CLI, Python y MCP.
 - [**forge-improved**](https://github.com/annatchijova/forge-improved) — Línea multilenguaje de Forge, con auditoría multiagente y abstención explícita cuando el alcance no permite sostener una conclusión.
 - [**forge-results**](https://github.com/annatchijova/forge-results) — Manifests, benchmarks e informes por ejecución, separados del runtime para mantener atribución y reproducibilidad.
@@ -160,7 +160,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 - [**vigia-intent-analysis-docs**](https://github.com/annatchijova/vigia-intent-analysis-docs) — Investigación y documentación académica de la línea de análisis de intención forense de VIGÍA.
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Investigación en español sobre criptografía de conocimiento cero, atestación forense e identidad experta.
 - [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Investigación desde las Ciencias Sociales sobre el reward hacking como fenómeno sociotécnico.
-- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Traducción y guía de estudio en español del material Dynamic Incident Response de Sans Institute.
+- [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Guía de estudio técnica en español de *Dynamic Incident Response: A Framework for Security Teams*, de Joshua Wright, con Ryan Chapman, Megan Roddie-Fonseca y Dean Parsons. No es una traducción del libro: es una síntesis técnica propia, capítulo por capítulo, escrita en español; cada archivo atribuye la fuente exacta que resume.
 
 ### Personas, coordinación y beneficio social
 
