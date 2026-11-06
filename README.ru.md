@@ -117,6 +117,7 @@ Zero-knowledge attestation судебно-криминалистических �
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — испаноязычное исследование zero-knowledge cryptography, forensic attestation и экспертной идентичности.
 - [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — исследование reward hacking как социотехнического явления с точки зрения социальных наук.
 - [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — техническое учебное руководство на испанском по *Dynamic Incident Response: A Framework for Security Teams* Джошуа Райта, при участии Райана Чапмана, Меган Родди-Фонсека и Дина Парсонса. Это не перевод книги, а самостоятельный технический синтез по главам; каждый файл указывает точный источник, который он обобщает.
+- [**skills-comunicacion**](https://github.com/annatchijova/skills-comunicacion) — *private*, skills по коммуникации и исследованию, отдельно от публичной коллекции инженерных skills.
 - [**SKILLS**](https://github.com/annatchijova/SKILLS) — 92 оригинальные skills для агентной разработки.
 - [**hackers-argentina**](https://github.com/annatchijova/hackers-argentina) — *private*, аргентинские ресурсы по кибербезопасности; доступ по разрешению.
 

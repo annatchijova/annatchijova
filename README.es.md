@@ -161,6 +161,7 @@ Los repositorios agrupados por área. Los marcados como *privado* están disponi
 - [**zk-criptografia**](https://github.com/annatchijova/zk-criptografia) — Investigación en español sobre criptografía de conocimiento cero, atestación forense e identidad experta.
 - [**reward-hacking-social**](https://github.com/annatchijova/reward-hacking-social) — Investigación desde las Ciencias Sociales sobre el reward hacking como fenómeno sociotécnico.
 - [**dynamic-incident-response-es**](https://github.com/annatchijova/dynamic-incident-response-es) — Guía de estudio técnica en español de *Dynamic Incident Response: A Framework for Security Teams*, de Joshua Wright, con Ryan Chapman, Megan Roddie-Fonseca y Dean Parsons. No es una traducción del libro: es una síntesis técnica propia, capítulo por capítulo, escrita en español; cada archivo atribuye la fuente exacta que resume.
+- [**skills-comunicacion**](https://github.com/annatchijova/skills-comunicacion) — *Privado.* Skills de comunicación e investigación, separadas de la colección pública de skills de ingeniería.
 
 ### Personas, coordinación y beneficio social
 
